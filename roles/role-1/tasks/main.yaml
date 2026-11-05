@@ -3,3 +3,5 @@
   #import_role: #Import role will parse the playbook before execution, if there is any error it will not execute the playbook.
     name: common
   when: OS == "RedHat" # condition is copied to every task 
+  tags:
+  - hi
