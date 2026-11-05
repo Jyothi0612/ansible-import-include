@@ -6,6 +6,10 @@
   debug:
     msg: "This is msg-2"
 
+- name: change the variable value
+  set_fact:
+    OS: "Debian"
+
 - name: msg-3
   debug:
     msg: "This is msg-3"
