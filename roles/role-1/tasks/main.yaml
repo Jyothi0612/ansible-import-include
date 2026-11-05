@@ -2,3 +2,4 @@
   #include_role: Include role will not parse the playbook before execution, it will check dynamically.
   import_role: #Import role will parse the playbook before execution, if there is any error it will not execute the playbook.
     name: common
+  when: OS == "RedHat"
