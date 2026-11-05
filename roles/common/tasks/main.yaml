@@ -8,9 +8,9 @@
   tags:
     - hi
 
-- name: change the variable value
-  set_fact:
-    OS: "Debian"
+# - name: change the variable value
+#   set_fact:
+#     OS: "Debian"
 
 - name: msg-3
   debug:
